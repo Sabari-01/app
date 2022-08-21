@@ -1,0 +1,43 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <servlet>
+    <servlet-name> ser1 </servlet-name>
+    <servlet-class> src.main.myclass.ser1 </servlet-class>
+  </servlet>
+  <servlet-mapping >
+    <servlet-name> ser1 </servlet-name>
+    <url-pattern> /abc </url-pattern>
+  </servlet-mapping>
+  <filter>
+    <filter-name>f1</filter-name>
+    <filter-class>src.main.myclass.filter1 </filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>f1</filter-name>
+    <url-pattern>/abc</url-pattern>
+  </filter-mapping>
+  <servlet>
+    <servlet-name> ser2 </servlet-name>
+    <servlet-class> src.main.myclass.ser2 </servlet-class>
+  </servlet>
+  <servlet-mapping >
+    <servlet-name> ser2 </servlet-name>
+    <url-pattern> /xyz </url-pattern>
+  </servlet-mapping>
+  <filter>
+    <filter-name>f2</filter-name>
+    <filter-class>src.main.myclass.filter2 </filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>f2</filter-name>
+    <url-pattern>/xyz</url-pattern>
+  </filter-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+  </welcome-file-list>
+</web-app>

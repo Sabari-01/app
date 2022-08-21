@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="javax.servlet-api-4.0.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/all jars/javax.servlet-api-4.0.1.jar!/" />
+      <root url="jar://$USER_HOME$/all jars/json-20180130.jar!/" />
+      <root url="jar://$USER_HOME$/all jars/mysql-connector-java-8.0.29.jar!/" />
+      <root url="jar://$USER_HOME$/all jars/protobuf-java-3.19.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
